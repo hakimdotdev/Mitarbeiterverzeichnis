@@ -4,6 +4,6 @@ services:
   php:
     image: php:7.2-apache
     volumes:
-      - "./html:/var/www/html"
+      - "./srv/Mitarbeiterverzeichnis:/var/www/html"
     ports: 
       - "8080:80"
