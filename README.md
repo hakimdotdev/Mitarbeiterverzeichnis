@@ -89,16 +89,15 @@ WebClient[Web Client] --> ASPNETWebApp
 EntityFramework --> DesktopApp
 ```
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+The Web Client communicates with the ASP.NET Web App, which is hosted along a .NET container within Docker. The ASP.NET Web App is responsible for handling HTTP requests and responses, and it communicates with the .NET Core backend to retrieve and update data in the MySQL database through Entity Framework.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Admins can use the Desktop App to access a dashboard with forms for adding, editing, and removing data (e.g. employees, roles, locations, work hours). This data is stored in the MySQL database and can be accessed by both the ASP.NET Web App, the .NET Core backend, and the Desktop App through Entity Framework. The Desktop App also includes an Import Module for importing medical data from other desktop applications commonly used by doctors and hospitals (primarily german ones).
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+The Desktop App also includes functionality for reporting absences to common appointment services. 
 
-Use the `BLANK_README.md` to get started.
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,16 +105,8 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

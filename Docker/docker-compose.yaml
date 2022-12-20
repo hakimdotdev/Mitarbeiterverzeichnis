@@ -1,9 +1,0 @@
-version: "3"
-
-services:
-  php:
-    image: php:7.2-apache
-    volumes:
-      - "./srv/Mitarbeiterverzeichnis:/var/www/html"
-    ports: 
-      - "8080:80"
