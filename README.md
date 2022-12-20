@@ -76,13 +76,17 @@ Personal documents such as payroll reports are often distributed with digital co
 
 ### Architecture 
 
-
-```mermaid
+```mermaid 
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+Docker[Docker] --> ASPNETWebApp[ASP.NET Web App]; 
+Docker[Docker] --> Apache[Apache Webserver]
+Docker[Docker] --> .NETCore[.NET Core]  
+DesktopApp[Desktop App] --> .NETCore 
+.NETCore --> MySQL[MySQL] 
+MySQL --> EntityFramework[Entity Framework] 
+EntityFramework[Entity Framework]  --> MySQL
+WebClient[Web Client] --> ASPNETWebApp
+EntityFramework --> DesktopApp
 ```
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
