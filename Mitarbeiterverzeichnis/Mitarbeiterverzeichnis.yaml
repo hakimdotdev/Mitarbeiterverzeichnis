@@ -40,4 +40,6 @@
       mode: 0644
   - name: Start apache2 service
     service:
-      name
+      name: apache2
+state: started
+enabled: true
