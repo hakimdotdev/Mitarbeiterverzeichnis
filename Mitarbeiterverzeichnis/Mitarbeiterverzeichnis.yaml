@@ -29,11 +29,11 @@
       group: root
       mode: 0644
     with_items:
-      - 000-default.conf
-      - httpd.conf
+      - /docker/000-default.conf
+      - /docker/httpd.conf
   - name: Copy mod_auth_ef module
     copy:
-      src: mod_auth_ef.so
+      src: docker/mod_auth_ef.so
       dest: /usr/local/apache2/modules/
       owner: root
       group: root
