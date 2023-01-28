@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Mitarbeiterverzeichnis",
+    "\\Mitarbeiterverzeichnis\\Assigner",
+    "\\Mitarbeiterverzeichnis\\Assigner\\MVZAssigner"
   ],
+  "SelectedNode": "\\Mitarbeiterverzeichnis\\Assigner\\MVZAssigner\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

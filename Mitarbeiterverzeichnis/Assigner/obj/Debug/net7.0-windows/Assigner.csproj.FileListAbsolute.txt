@@ -1,7 +1,0 @@
-C:\Users\Hakim\Source\Repos\hakimdotdev\Mitarbeiterverzeichnis\Mitarbeiterverzeichnis\Assigner\obj\Debug\net7.0-windows\Assigner.csproj.AssemblyReference.cache
-C:\Users\Hakim\Source\Repos\hakimdotdev\Mitarbeiterverzeichnis\Mitarbeiterverzeichnis\Assigner\obj\Debug\net7.0-windows\Assigner.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Hakim\Source\Repos\hakimdotdev\Mitarbeiterverzeichnis\Mitarbeiterverzeichnis\Assigner\obj\Debug\net7.0-windows\Assigner.AssemblyInfoInputs.cache
-C:\Users\Hakim\Source\Repos\hakimdotdev\Mitarbeiterverzeichnis\Mitarbeiterverzeichnis\Assigner\obj\Debug\net7.0-windows\Assigner.AssemblyInfo.cs
-C:\Users\Hakim\Source\Repos\hakimdotdev\Mitarbeiterverzeichnis\Mitarbeiterverzeichnis\Assigner\obj\Debug\net7.0-windows\Assigner.csproj.CoreCompileInputs.cache
-C:\Users\Hakim\Source\Repos\hakimdotdev\Mitarbeiterverzeichnis\Mitarbeiterverzeichnis\Assigner\obj\Debug\net7.0-windows\zuordnung_test.Form1.resources
-C:\Users\Hakim\Source\Repos\hakimdotdev\Mitarbeiterverzeichnis\Mitarbeiterverzeichnis\Assigner\obj\Debug\net7.0-windows\Assigner.csproj.GenerateResource.cache
