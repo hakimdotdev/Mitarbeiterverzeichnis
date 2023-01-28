@@ -1,0 +1,15 @@
+version: '3'
+services:
+  MVZ:
+    build: .
+    ports:
+      - "80:80"
+  DB:
+    build: .
+    ports:
+      - "1433:1433"
+  GUI:
+    image: MVZAssigner
+    environment:
+      - SERVER_NAME=sqlserver
+
