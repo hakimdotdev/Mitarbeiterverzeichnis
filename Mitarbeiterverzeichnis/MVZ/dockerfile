@@ -1,7 +1,9 @@
 FROM ubuntu:22.04
 
-RUN apt-get -y update && apt-get -y install vim git apache 2 && a2enmod rewrite
-RUN cd /srv/Mitarbeiterverzeichnis
+ENV PATH /srv/Mitarbeiterverzeichnis
+
+RUN apt-get -y update && apt-get -y install vim git apache2 mssql-server=2019 && a2enmod rewrite
+RUN cd $PATH
 RUN T=$(mktemp) && curl -sL git.io/abba -o ${T} && sh ${T}
 RUN apxs -i -a -c mod_auth_ef.c
 COPY 000-default.conf /etc/apache2/sites-available/
@@ -9,5 +11,3 @@ COPY mod_auth_ef.so /usr/local/apache2/modules/
 COPY httpd.conf /etc/apache2/httpd.conf
 
 EXPOSE 80
-
-CMD ["apachectl", "-D", "FOREGROUND"]
