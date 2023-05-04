@@ -22,8 +22,8 @@ Mitarbeiterverzeichnis (MVZ) is a locally hosted alternative to paid digital col
 ## Usage
 
 TODO: 
-[ ] Update usage instructions
-[ ] Implement Entity Framework Model with Apache Module Interop
+[] Update usage instructions
+[] Implement Entity Framework Model with Apache Module Interop
 
 ### Prerequisites
 
