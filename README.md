@@ -2,15 +2,6 @@
 
 Mitarbeiterverzeichnis (MVZ) is a locally hosted alternative to paid digital collaboration systems like Arbeitnehmer Online by DATEV for managing personal documents such as payroll reports.
 
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-### Architecture 
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -30,7 +21,9 @@ Mitarbeiterverzeichnis (MVZ) is a locally hosted alternative to paid digital col
 
 ## Usage
 
-TODO: Update usage instructions
+TODO: 
+[ ] Update usage instructions
+[ ] Implement Entity Framework Model with Apache Module Interop
 
 ### Prerequisites
 
